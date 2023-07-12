@@ -542,19 +542,18 @@ background-color: #7772F1;
 /* ---------Пример ДЗ------------ */
 
 
-.direction__img-box--animation {
-    -webkit-transform: rotate(25deg); 
-    transform: rotate(25deg); 
+.directions__list-item--management {
+    animation: directions__list-item--animation 3s infinite;
 }
 
-.direction__link-tag--size {
-    font-size: 36px;
-}
-
-.direction__link-text--color {
-    color: #F52F6E;
-}
-
-.direction__link-btn--border {
-    border: 2px solid red;
+@keyframes directions__list-item--animation {
+    0% {
+        transform: rotate(0deg); 
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
