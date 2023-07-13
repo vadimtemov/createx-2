@@ -551,7 +551,7 @@ background-color: #7772F1;
     left: -190px;
     width: 60px;
     height: 60px;
-    background: url("/images/decor/shapes2.svg");
+    background: url("images/decor/shapes2.svg");
 }
 
 .cert__content {
